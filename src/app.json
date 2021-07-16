@@ -1,0 +1,35 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "source": "pages/Home/index"
+    },
+    {
+      "path": "/cart",
+      "source": "pages/Cart/index"
+    }
+  ],
+  "tabBar": {
+    "textColor": "#6e6d6b",
+    "selectedColor": "#ff9966",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "text": "首页",
+        "pageName": "/",
+        "icon": "/images/home.png",
+        "activeIcon": "/images/home-active.png"
+      },
+      {
+        "text": "购物车",
+        "pageName": "/cart",
+        "icon": "/images/cart.png",
+        "activeIcon": "/images/cart-active.png"
+      }
+    ]
+  },
+  "window": {
+    "title": "Rax App"
+  }
+}
