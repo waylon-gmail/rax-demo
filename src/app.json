@@ -7,6 +7,13 @@
     {
       "path": "/cart",
       "source": "pages/Cart/index"
+    },
+    {
+      "path": "/goods",
+      "source": "pages/Goods/index",
+      "window": {
+        "title": "Goods"
+      }
     }
   ],
   "tabBar": {

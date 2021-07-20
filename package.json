@@ -12,6 +12,7 @@
     "lint": "npm run eslint && npm run stylelint"
   },
   "dependencies": {
+    "@alifd/meet": "^2.4.1",
     "@uni/apis": "^1.0.20",
     "rax": "^1.1.0",
     "rax-document": "^0.1.0",
